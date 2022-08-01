@@ -11,7 +11,6 @@ public class Task1 {
         File file = new File("tekst1");
         printSumDigits(file);
     }
-
     public static void printSumDigits(File file) {
         try {
             Scanner scanner = new Scanner(file);
